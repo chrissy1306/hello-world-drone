@@ -1,3 +1,5 @@
-image: dockerfile/nginx
-script:
-  - echo hello world
+build:
+  image: node:4-onbuild
+  commands:
+    - npm install
+    - npm test
