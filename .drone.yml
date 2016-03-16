@@ -1,0 +1,5 @@
+build:
+  image: node/node:4-onbuild
+  commands:
+    - npm -d install
+    - npm test

@@ -1,0 +1,22 @@
+{
+  "name": "hello-world-drone",
+  "version": "1.0.0",
+  "description": "example of running drone ci on node application",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrissy1306/hello-world-drone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrissy1306/hello-world-drone/issues"
+  },
+  "homepage": "https://github.com/chrissy1306/hello-world-drone#readme",
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
+}
