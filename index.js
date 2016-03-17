@@ -1,6 +1,6 @@
 var http = require('http');
 
-const PORT = 20080; 
+const PORT = 8080; 
 module.exports.PORT = PORT;
 
 console.log("port = %s", PORT);
