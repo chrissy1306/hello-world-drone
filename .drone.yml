@@ -3,3 +3,15 @@ build:
   commands:
     - npm install
     - npm test
+publish:  
+  docker:
+    username: chrissy1306
+    password: $$DOCKER_PASSWORD
+    email: $$DOCKER_EMAIL
+    repo: chrissy1306/hello-world-drone
+    tag:
+      - $$TAG
+    file: Dockerfile
+    insecure: false
+    when:
+      event: tag
